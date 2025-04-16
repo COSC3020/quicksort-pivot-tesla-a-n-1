@@ -52,21 +52,33 @@ For this method, we need to analyze all possible combinations of S, G, and M for
 ### Enumerating all possible combinations:
 
   1.All elements of the same type:
+  
     - P(SSS) = (1/4)^3 = 1/64
+
     - P(GGG) = (1/2)^3 = 1/8 = 8/64  Good Pivot
+    
     - P(MMM) = (1/4)^3 = 1/64
+    
   2.Two elements of one type, one of another (3 positions for the different element):
+  
     - P(SSG) = 3 x (1/4)^2 x (1/2) = 3/32 = 6/64
+    
     - P(SSM) = 3 x (1/4)^2 x (1/4) = 3/64
+    
     - P(SGG) = 3 x (1/4) x (1/2)^2 = 3/16 = 12/64  Good Pivot
+    
     - P(SMM) = 3 x (1/4)^2 x (1/4) = 3/64 
+    
     - P(GGM) = 3 x (1/2)^2 x (1/4) = 3/16 = 12/64  Good Pivot
+    
     - P(GMM) = 3 x (1/2) x (1/4)^2 = 3/32 = 6/64
+    
   3.One element of each type (6 different arangements):
-    - P(SGM) = 6 x (1/4) x (1/2) x (1/4) = 6/64   Good Pivot
+  
+    - P(SGM) = 6 x( (1/4) x (1/2) x (1/4) ) = 6 x 1/32 = 6 x 2/64 = 12/64  Good Pivot
 
 ### Good Pivot Combinations
 
-Combinations that result in a good pivot (G) are: 
+Good pivots: (12/64) + (12/64) + (12/64) + (8/64) = 44/64 = 11/16 = 68.75% 
 
 
