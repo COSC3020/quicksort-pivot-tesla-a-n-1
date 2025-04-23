@@ -89,6 +89,6 @@ On average, using quicksort with the median of three method will create better b
 
 Sources: [GeeksforGeeks](https://www.geeksforgeeks.org/quicksort-using-median-of-medians-algorithm/) [This quicksort method visualizer](https://visualgo.net/en/sorting)
 
-
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
 
 
